@@ -20,9 +20,9 @@
 	"sentences" : {
 		"bannerclickedpopup" : {
 			"deletebanner" : "_MISSING_Delete Banner",
-			"deletecolony" : "_MISSING_Delete Colony",
-			"deletecolonydescription" : "_MISSING_Deleting the last banner of a colony will remove all npcs and make the colony unusable. To confirm this is what you want, type 'delete' below.",
-			"header" : "_MISSING_Banner Options",
+			"deletecolony" : "Kolonie auflösen",
+			"deletecolonydescription" : "Das Löschen des letzten Banners einer Kolonie entfernt alle NPCs und macht die Kolonie unbrauchbar. Gib 'delete' ein um das letzte Banner zu löschen.",
+			"header" : "Banner Optionen",
 			"noconfirmationdelete" : "_MISSING_Ignoring deletion command, did not get confirmation",
 			"placementfail" : "_MISSING_Couldn't place banner at this location"
 		},
@@ -32,7 +32,7 @@
 			"header" : "_MISSING_Banner Placement",
 			"movebanner" : "_MISSING_Move Banner",
 			"mustbeleader" : "_MISSING_Must be the colony leader to change banners.",
-			"startcolony" : "_MISSING_Start a new colony here"
+			"startcolony" : "Neue Kolonie hier gründen"
 		},
 		"biome" : {
 			"arctic" : {
@@ -65,10 +65,10 @@
 		},
 		"colonymanagement" : {
 			"colonysettings" : {
-				"daymonsters" : "_MISSING_Day Monster Amount",
-				"enablehappiness" : "_MISSING_Use Happiness",
-				"header" : "_MISSING_Colony Settings",
-				"nightmonsters" : "_MISSING_Night Monster Amount"
+				"daymonsters" : "Monster am Tag",
+				"enablehappiness" : "Zufriedenheit aktiv",
+				"header" : "Kolonie Einstellungen",
+				"nightmonsters" : "Monster in der Nacht"
 			},
 			"connectedplayers" : "_MISSING_Connected Players",
 			"currentowners" : "_MISSING_Current Owners",
@@ -101,7 +101,7 @@
 			"manageheader" : "_MISSING_Ownership Management",
 			"manageowners" : "_MISSING_Manage Owners",
 			"nameedit" : "_MISSING_Edit Colony Name:",
-			"namefield" : "_MISSING_Colony Name:",
+			"namefield" : "Kolonie Name:",
 			"recruitauto" : "_MISSING_Auto recruit on job placement",
 			"recruitautorequirements" : "_MISSING_<i>Turning this on will recruit a new colonist when placing a job with at least -10 happiness, spare beds, 2 days worth of food and exactly 0 unemployed</i>",
 			"recruitmentamount" : "_MISSING_Amount of colonists to recruit:",
@@ -129,11 +129,11 @@
 			},
 			"settoleader" : "_MISSING_Set to leader",
 			"start" : {
-				"create" : "_MISSING_Create Colony",
-				"defaultkit" : "_MISSING_First time starter kit is used",
+				"create" : "Kolonie hier gründen",
+				"defaultkit" : "Start Ressourcen werden der ersten Kolonie hinzugefügt",
 				"kits" : "_MISSING_Available Kits",
 				"missingkit" : "_MISSING_Missing a colony starter kit",
-				"name" : "_MISSING_Colony Name",
+				"name" : "Kolonie Name",
 				"parentcolony" : "_MISSING_Parent Colony",
 				"popupheader" : "_MISSING_Colony Creation",
 				"usescienceagreement" : "_MISSING_Transfer Science"
@@ -228,10 +228,10 @@
 		"firstpersonstats" : {
 			"ammocount" : "Munition:",
 			"bedcount" : "Betten:",
-			"caloriestorage" : "_MISSING_Total Calories:",
-			"calorieusage" : "_MISSING_Calorie use/day:",
+			"caloriestorage" : "Total Kalorien:",
+			"calorieusage" : "Kalorien/Tag:",
 			"colonistcount" : "Kolonisten:",
-			"happiness" : "_MISSING_Happiness:",
+			"happiness" : "Zufriedenheit:",
 			"laborercount" : "Arbeitslos:"
 		},
 		"general" : {
@@ -731,7 +731,7 @@
 				"respawn" : "Wiederbeleben"
 			},
 			"inventory" : {
-				"availableamount" : "_MISSING_In stockpile: {0}",
+				"availableamount" : "Auf Lager: {0}",
 				"calorievalue" : "_MISSING_{0} calories per item",
 				"craftingstockpile" : "Herstellung und Lager",
 				"distributionhappyperitem" : "_MISSING_Happiness per item: {0}",
@@ -1029,7 +1029,7 @@
 				"header" : "Grundlagen",
 				"text1" : "Das Banner ist das Zentrum deiner Kolonie. Drücke '2', um es zu plazieren. Klicken Sie mit der rechten Maustaste auf das Banner, um Kolonisten zu rekrutieren. Das Banner-Tool hebt den Bereich rot hervor, in dem Monster erscheinen.",
 				"text2" : "Du brauchst Essen und Betten, um Kolonisten zu rekrutieren. Kolonisten brauchen Essen, um zu überleben. Stelle sicher,dass immer genug Essen verfügbar ist, oder sie verhungern!",
-				"text3" : "_MISSING_Press \"I\" to craft a bed. Items on the left can be crafted by clicking on them. Colonists can only use items in your stockpile. They access the stockpile using crates.",
+				"text3" : "Drücke \"I\" um ein Bett herzustellen. Die Gegenstände auf der linken Seite können durch Anklicken angefertigt werden. Kolonisten können nur Artikel aus dem Lager verwenden. Sie greifen auf das Lager mit Hilfe von Kisten zu.",
 				"text4" : "Monster werden deine Kolonie nachts angreifen! Verwende das Befehlstool, um Wachen zu platzieren. Drücken sie '1' und wählen sie 'Wächter' aus. Drücke 'R', um Blöcke zu drehen."
 			},
 			"page2" : {
@@ -1161,10 +1161,10 @@
 			}
 		},
 		"singleplayermenu" : {
-			"alreadyexists" : "_MISSING_World already exists!",
-			"cancel" : "_MISSING_Cancel",
-			"confirmdelete" : "_MISSING_Confirm deleting",
-			"confirmdeletedescription" : "_MISSING_You're about to delete the folder containing this world.\nWhat do you want to do?",
+			"alreadyexists" : "Welt existiert bereits!",
+			"cancel" : "Abbrechen",
+			"confirmdelete" : "Löschen bestätigen",
+			"confirmdeletedescription" : "Du bist dabei den Ordner mit dieser Welt zu löschen\nWas willst du tun?",
 			"confirmload" : "_MISSING_Confirm loading",
 			"delete" : "Löschen",
 			"hostingoptions" : "_MISSING_Hosting Settings",
@@ -1184,10 +1184,10 @@
 				"requireddependency" : "_MISSING_[Requires]"
 			},
 			"newworld" : "Neue Welt",
-			"password" : "_MISSING_Password",
+			"password" : "Passwort",
 			"play" : "Spielen",
-			"servername" : "_MISSING_Server Name",
-			"serverport" : "_MISSING_Server Port",
+			"servername" : "Server Name",
+			"serverport" : "Server Port",
 			"typegenerateworld" : "_MISSING_Generate World",
 			"typeworkshop" : "_MISSING_Workshop World",
 			"worlddate" : "Datum",
